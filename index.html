@@ -804,19 +804,20 @@
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <form id="contactForm" name="sentMessage" novalidate="novalidate">
+          <form id="contactForm" name="contactForm" novalidate="novalidate" action="https://docs.google.com/forms/d/e/1FAIpQLSepJ-RgkAqK-5ZDDM_mirTSKpFYZAFMUGP6OZ3ijc1ARO8qOQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+            <!-- usp=pp_url&entry.704715258=Nam&entry.1210727641=namthatman@gmail.com&entry.1128556929=aaannndsa-->
             <div class="row">
               <div class="col-md-8 mx-auto">
                 <div class="form-group">
-                  <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
+                  <input class="form-control" name="entry.704715258" id="entry.704715258" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="form-group">
-                  <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
+                  <input class="form-control" name="entry.1210727641" id="entry.1210727641" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control" id="message" placeholder="Your Message (Optional)"></textarea>
+                  <textarea class="form-control" name="entry.1128556929" id="entry.1128556929" placeholder="Your Message *" required="required"></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
@@ -827,6 +828,7 @@
               </div>
             </div>
           </form>
+          <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
         </div>
       </div>
     </div>

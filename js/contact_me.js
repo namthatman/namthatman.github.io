@@ -1,3 +1,4 @@
+/*
 $(function() {
 
   $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
@@ -19,7 +20,7 @@ $(function() {
       $this = $("#sendMessageButton");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
       $.ajax({
-        url: "././mail/contact_me.php",
+        //url: "././mail/contact_me.php",
         type: "POST",
         data: {
           name: name,
@@ -67,7 +68,8 @@ $(function() {
   });
 });
 
-/*When clicking on Full hide fail/success boxes */
+//When clicking on Full hide fail/success boxes
 $('#name').focus(function() {
   $('#success').html('');
 });
+*/
