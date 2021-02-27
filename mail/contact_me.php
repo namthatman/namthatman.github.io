@@ -14,7 +14,7 @@ $time_format = $time->format('Y-m-d');
  
 // Write to text file.
 
-$my_file = "database.txt";
+$my_file = "../database.txt";
 $handle = fopen($my_file, 'a') or die('Cannot open file:  '.$my_file);
 
 $txt = $name.'#'.$email.'#'.$message.'#'.$time_format;
