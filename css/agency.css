@@ -109,6 +109,18 @@ img::-moz-selection {
 .btn-third:focus {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
+.btn-fouth {
+  margin: 2px 0px;
+  border-color: #212529;
+  color: #fff;
+}
+.btn-fouth:active,
+.btn-fouth:focus,
+.btn-fouth:hover {
+  border-color: #fff !important;
+  color: #212529 !important;
+}
+
 #mainNav {
   background-color: #212529;
 }
@@ -293,6 +305,7 @@ header.masthead .intro-text .intro-lead-sub {
 }
 #portfolio .portfolio-item .portfolio-caption h4 {
   margin: 0;
+  font-size: 17px;
   text-transform: none;
 }
 #portfolio .portfolio-item .portfolio-caption p {
@@ -647,6 +660,7 @@ ul.social-buttons li a:hover {
 }
 .about-img {
   padding: 4px 4px;
+  margin-bottom: 25px;
 }
 .lib-card {
   margin-bottom: 75px;
